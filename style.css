@@ -1,0 +1,234 @@
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+
+.nav-item{
+    display: flex;
+    margin-left: 8%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.nav-item a:hover{
+    transform: scale(1.05);
+}
+#getspotify:hover{
+    transform: scale(1.05);
+}
+#getspotify{
+    border-radius: 150px;
+}
+#navbarSupportedContent{
+    margin-left: 125%;
+}
+.logo{
+    margin-left: 100%;
+    
+}
+.container-fluid-2{
+    height: 710px;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    width: 100%;
+    
+}
+#why{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.container .row .col ul{
+    list-style: none;
+    padding: 0px;
+}
+.container .row .col {
+    display: flex;
+    margin: 0;
+    text-align: center;
+    margin: 0;
+}
+.container .row .col ul li img{
+    width: 140px;
+}
+.container .row .col ul li h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    
+}
+.container .row .col ul li span{
+    font-weight: 600;
+}
+.container .row{
+    padding-left: 100px;
+}
+.container2{
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    height: 500px;
+}
+.container2 h1{
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    padding: 200px;
+    color: white;
+}
+.container3 h1{
+    text-align: center;
+    font-weight: bold;
+}
+.container3 h5{
+    margin-left: 250px;
+    padding: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 20px;
+}
+#div1{
+    font-size: 16px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+.container4{
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    height: 400px;
+}
+.container4 ul{
+    list-style: none;
+    text-align: center;
+}
+.container4  ul li h1{
+    color: white;
+    padding-top: 130px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 80px;
+}
+.container4 ul li a button{
+   border-radius: 20px;
+   padding: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+} 
+.container5{
+    background: black;
+    height: 510px;
+    color: white;
+    padding: 100px;
+}
+.col img{
+    width: 150px;
+}
+#ul4{
+    display: flex;
+    width: 60%;
+}
+#ul1 li{
+    padding: 10px;
+}
+#ul2 li{
+    padding: 10px;
+}
+#ul3 li{
+    padding: 10px;
+}
+#ul4 li{
+    width: 80%;
+    height: 100%;
+}
+.phone-style{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 580px;
+    text-align: left;
+    border-bottom: none;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    /* border-bottom-left-radius: 32px; */
+    /* border-bottom-right-radius: 32px; */
+    position: absolute;
+    top: 200px;
+    left: 220px;
+}
+/* .phone-style{
+    background-color: rgb(255, 255, 255);
+    width: 18%;
+    height: 75%;
+    text-align: left;
+    border-bottom: none;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px; */
+    /* border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px; */
+    /* position: absolute;
+    top: 200px;
+    left: 280px;
+} */
+#pn{
+    
+    box-sizing: border-box;
+    width: 93%;
+    height: 75%;
+    margin: 35px 0 0 10px;
+    position: relative;
+}
+#black{
+    background-color: black;
+    width: 50px;
+    height: 10px;
+    margin-left: 125px;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+#bcgrndtext ul li{
+    list-style: none;
+}
+
+#bcgrndtext{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 190px;
+    left: 550px;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+#getspotify{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+ul{
+    list-style-type: none;
+}
+#bottomtext{
+    list-style: none;
+    display: flex;
+    color: grey;
+    margin-left: 100px;
+    margin-top: 30px;
+    float: inline-end;
+    padding-right: 550px;
+}
+#bottomtext li{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#footerright{
+    font-size: 10px;
+    text-align: right;
+    color: grey;
+}
